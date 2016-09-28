@@ -12,7 +12,10 @@
             Hi! Im Nitin
         </div>
         <h2 align="centre">Hello people</h2>
-        <hr>
+     <hr>
+     <p id="demo" color="blue">
+         we are going to add 2 nos
+     </p>
         
         <script src="/ui/main.js">
         </script>
@@ -22,7 +25,7 @@
         b=prompt("enter second no"); 
         c=confirm("do you want to add");
         if(c=="yes")
-        { console.log(a+b);}
+        {document.getElementById("demo").innerHTML=a+b;}
       </script>
        
     </body>
